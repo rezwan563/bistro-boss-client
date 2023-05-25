@@ -14,7 +14,7 @@ const ChefRecomendation = () => {
     },[])
     return (
         <section>
-            <SectionTitle subHeading='Should try' heading='Chef Recomendation'></SectionTitle>
+            <SectionTitle subHeading='Should Try' heading='Chef Recomendation'></SectionTitle>
             <div className="grid grid-cols-1 md:grid-cols-3">
                 {
                     menu.map(item => <MenuCard key={item._id} item={item}></MenuCard>)

@@ -8,7 +8,7 @@ import slide5 from '../../../../assets/home/05.png'
 import slide6 from '../../../../assets/home/06.png'
 const Banner = () => {
     return (
-        <Carousel autoPlay swipeable emulateTouch interval={2000}>
+        <Carousel autoPlay infiniteLoop swipeable emulateTouch interval={3000}>
                 <div>
                     <img src={slide1} />
                 </div>

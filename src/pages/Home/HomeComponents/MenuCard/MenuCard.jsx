@@ -13,7 +13,7 @@ const MenuCard = ({ item }) => {
         <h2 className="card-title">{name}</h2>
         <p>{recipe}</p>
         <div className="card-actions justify-end">
-          <button className="bg-slate-200 text-yellow-500 p-3 hover:bg-slate-700 rounded-md border-b-yellow-500 bottom-4 shadow-md">Add to Cart</button>
+          <button className="bg-slate-200 text-yellow-500 p-3 hover:bg-slate-700 rounded-md border-b-yellow-500 border-0 border-b-4 shadow-md">Add to Cart</button>
         </div>
       </div>
     </div>
