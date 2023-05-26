@@ -2,7 +2,7 @@ import "./ChefService.css";
 const ChefService = () => {
   return (
     <section className="">
-      <div className="background-img relative">
+      <div className="background-img bg-fixed relative">
         <div className="text-foreground bg-white w-3/4 p-24 space-y-6">
             <p className="text-4xl">Bistro Boss</p>
           <p className="">

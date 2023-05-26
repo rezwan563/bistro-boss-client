@@ -20,6 +20,7 @@ const ChefRecomendation = () => {
                     menu.map(item => <MenuCard key={item._id} item={item}></MenuCard>)
                 }
             </div>
+            <button className="p-3 hover:bg-slate-700 hover:text-white rounded-md border-b-slate-500 border-0 border-b-4 shadow-md">View Full Menu</button>
         </section>
     );
 };
