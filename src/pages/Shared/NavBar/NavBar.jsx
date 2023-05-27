@@ -5,6 +5,7 @@ const NavBar = () => {
     <>
       <li className='mr-2'><Link to='/'>Home</Link></li>
       <li className='mr-2'><Link to='/menu'>Our Menu</Link></li>
+      <li className='mr-2'><Link to='/order'>Order Food</Link></li>
     </>
   );
   return (
